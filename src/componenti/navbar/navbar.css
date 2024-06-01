@@ -1,0 +1,26 @@
+.navbar {
+    font-family: cursive;
+    display: grid;
+    background: linear-gradient(to right ,black, grey);
+    color: white;
+    justify-content: center;
+    text-align: center  ;
+}
+  
+.testo {
+      font-family: cursive;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 800px;
+      height: 95%;
+      font-size: 20px;
+      
+}
+
+button 
+    {
+      font-family: cursive;
+      background-color:aqua;
+      border-radius: 100%;
+    }

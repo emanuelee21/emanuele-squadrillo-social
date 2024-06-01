@@ -1,0 +1,26 @@
+.contenuti {
+    display: grid;
+    background: linear-gradient(to right ,black, grey);
+    margin: 0;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    grid-gap:30px;
+    padding:16px;
+    
+}
+
+.post {
+    font-family: cursive;
+    color: black;
+    background: linear-gradient(to right , red, white);
+    display: grid;
+    font-size: large;
+    font-weight: bold;
+    border: 5px solid rgb(156, 20, 20);
+    border-radius: 20px; 
+    text-align: center;
+}
+
+.id {
+    margin: 0;
+}
+

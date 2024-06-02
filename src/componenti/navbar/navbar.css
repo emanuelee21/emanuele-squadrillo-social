@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Danfo&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Seymour+One&display=swap');
 
 .navbar {
     font-family: "Danfo", serif;
@@ -21,8 +22,9 @@
     padding:16px;
 }
 .submit {
-    font-family: cursive;
-    font-weight: bolder;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     border-radius: 100%; 
     border:3px solid;
     width:100px;
@@ -35,7 +37,9 @@
 .textarea{
   background: linear-gradient(to BOTTOM , rgba(255, 255, 0, 0.675), rgb(255, 255, 185));
   text-align: center;
-  font-family: cursive;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   border:4px solid;
   border-radius: 10%;
   width:50%;
@@ -43,7 +47,9 @@
 .textbox{
   background: linear-gradient(to BOTTOM , rgba(255, 255, 0, 0.675), rgb(255, 255, 185));
   text-align: center;
-  font-family: cursive; 
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   border:4px solid;
   border-radius: 10%;
   width:50%;

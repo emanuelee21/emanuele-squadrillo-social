@@ -6,7 +6,7 @@ function Footer() {
         <footer className="footer">
             <h1>product by..."EMANUELE SQUADRILLO"</h1>
         </footer>
+
     )
 }
-
 export default Footer;

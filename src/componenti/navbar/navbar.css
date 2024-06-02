@@ -1,26 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Danfo&family=Seymour+One&display=swap');
+
 .navbar {
-    font-family: cursive;
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
     display: grid;
-    background: linear-gradient(to right ,black, grey);
+    background: linear-gradient(to LEFT ,black, grey);
     color: white;
     justify-content: center;
-    text-align: center  ;
+    text-align: center; 
+     
 }
-  
-.testo {
-      font-family: cursive;
+.testo{
       display: flex;
       justify-content: center;
       text-align: center;
-      width: 800px;
-      height: 95%;
       font-size: 20px;
-      
+      padding:16px;
 }
-
-button 
-    {
+.submit {
       font-family: cursive;
-      background-color:aqua;
-      border-radius: 100%;
+      font-weight: bolder;
+      border-radius: 100%; 
+      border:1px solid;
+      width:50px;
+      height:50px;
+      
+ 
     }
+.invio{
+    padding:16px;
+  }
+.textarea{
+  
+  text-align: center;
+  font-family: cursive;
+  border:4px solid;
+  border-radius: 10%;
+} 
+.textbox{
+  text-align: center;
+  font-family: cursive;
+  
+   border:4px solid;
+  border-radius: 10%;
+}
+h1{
+  color:black; 
+}

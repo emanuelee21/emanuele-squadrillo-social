@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useContext } from "react";
-import { AppContext, IAppContext} from "../context/appcontext";
+import React, {useState, useContext } from "react";
+import { AppContext, IAppContext} from "../../context/appcontext";
 import './navbar.css';
 
 function Navbar() {
@@ -10,25 +10,28 @@ function Navbar() {
     function handleSave() {
         if(jsonData) {
             const item={
-                id: jsonData.length,
+                id: jsonData.length+1,
                 title: titleContent,
                 body: textContent
             }
             jsonData.push(item)
             setJsonData([...jsonData])
+            alert("salvataggio effettuato con successo!");    
         }
     }
         return (
                 <div className="navbar">
-                    <h1>Emanuele Squadrillo's SOCIAL</h1>
-                    <input type="text" className="testo" placeholder="Inserisci titolo..."onChange={(event) => setTitleContent(event.target.value)}/>
-                    <textarea className="testo" placeholder="Scrivi..." onChange={(event) => setTextContent(event.target.value)}></textarea>
-                    <button id="save" onClick={() => handleSave()}>Salva</button>           
+                        <h1>Emanuele Squadrillo's SOCIAL</h1>
+                    <div className="testo">
+                        <input type="text" id="textbo"className="textbox" placeholder="Inserisci titolo..."onChange={(event) => setTitleContent(event.target.value)}/>
+                        <textarea id="textbo"className="textarea" placeholder="Scrivi il tuo post..." onChange={(event) => setTextContent(event.target.value)}></textarea>
+                    </div>
+                    <div className="invio">
+                        <button className="submit" onClick={() => handleSave()}>Salva</button>
+                    </div>
+                               
                  </div>
         )
     }
-
-
-
 export default Navbar;
    

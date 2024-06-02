@@ -16,20 +16,21 @@ function Navbar() {
             }
             jsonData.push(item)
             setJsonData([...jsonData])
-            alert("salvataggio effettuato con successo!");    
+            alert("salvataggio effettuato con successo!");  
+            
         }
     }
         return (
+
                 <div className="navbar">
                         <h1>Emanuele Squadrillo's SOCIAL</h1>
                     <div className="testo">
-                        <input type="text" id="textbo"className="textbox" placeholder="Inserisci titolo..."onChange={(event) => setTitleContent(event.target.value)}/>
-                        <textarea id="textbo"className="textarea" placeholder="Scrivi il tuo post..." onChange={(event) => setTextContent(event.target.value)}></textarea>
+                        <input type="text" className="textbox" placeholder="Inserisci titolo..."onChange={(event) => setTitleContent(event.target.value) }/>
+                        <textarea className="textarea" placeholder="Scrivi il tuo post..." onChange={(event) => setTextContent(event.target.value)}></textarea>
                     </div>
                     <div className="invio">
                         <button className="submit" onClick={() => handleSave()}>Salva</button>
-                    </div>
-                               
+                    </div>              
                  </div>
         )
     }

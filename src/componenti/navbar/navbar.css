@@ -1,53 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Danfo&family=Seymour+One&display=swap');
 
 .navbar {
-  font-family: "Danfo", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
     "ELSH" 0;
     display: grid;
     background: linear-gradient(to LEFT ,black, grey);
     color: white;
     justify-content: center;
-    text-align: center; 
-     
+    text-align: center;  
 }
 .testo{
-      display: flex;
+    display: flex;
       justify-content: center;
       text-align: center;
-      font-size: 20px;
-      padding:16px;
+    font-size: 20px;
+    padding:16px;
 }
 .submit {
-      font-family: cursive;
-      font-weight: bolder;
-      border-radius: 100%; 
-      border:1px solid;
-      width:50px;
-      height:50px;
-      
- 
+    font-family: cursive;
+    font-weight: bolder;
+    border-radius: 100%; 
+    border:3px solid;
+    width:50px;
+    height:50px;
+    background: linear-gradient(to bottom ,rgb(19, 19, 19), grey);
     }
 .invio{
     padding:16px;
   }
 .textarea{
-  
+  background: linear-gradient(to BOTTOM , rgba(255, 255, 0, 0.675), rgb(255, 255, 185));
   text-align: center;
   font-family: cursive;
   border:4px solid;
   border-radius: 10%;
+  width:50%;
 } 
 .textbox{
+  background: linear-gradient(to BOTTOM , rgba(255, 255, 0, 0.675), rgb(255, 255, 185));
   text-align: center;
-  font-family: cursive;
-  
-   border:4px solid;
+  font-family: cursive; 
+  border:4px solid;
   border-radius: 10%;
+  width:50%;
 }
 h1{
-  color:black; 
+  color:rgb(0, 0, 0); 
+}
+.textbox:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.textarea:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.submit:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

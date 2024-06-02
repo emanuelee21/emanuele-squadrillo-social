@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Danfo&family=Seymour+One&display=swap');
 
 .footer { 
-    background: linear-gradient(to LEFT ,black, grey);
+    background: linear-gradient(to LEFT ,black,grey );
     font-family: "Danfo", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -10,7 +10,5 @@
     "ELSH" 0;
     color: white; 
     display: flex;
-    justify-content: center
-
+    justify-content: center;
 } 
- 

@@ -29,7 +29,7 @@ function Navbar() {
                         <textarea className="textarea" placeholder="Scrivi il tuo post..." onChange={(event) => setTextContent(event.target.value)}></textarea>
                     </div>
                     <div className="invio">
-                        <button className="submit" onClick={() => handleSave()}>Salva</button>
+                        <button className="submit" onClick={() => handleSave()}>SALVA</button>
                     </div>              
                  </div>
         )

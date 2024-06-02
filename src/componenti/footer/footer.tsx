@@ -4,7 +4,7 @@ import './footer.css';
 function Footer() {
     return (
         <footer className="footer">
-            <h1>product by..."EMANUELE SQUADRILLO"</h1>
+            <h1>@ product by...|EMANUELE SQUADRILLO|</h1>
         </footer>
 
     )
